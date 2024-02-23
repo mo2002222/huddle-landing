@@ -1,0 +1,381 @@
+header {
+  background-image: url(../media/bg-hero-desktop.svg);
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 20px 30px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container nav img {
+  width: 130px;
+}
+.container nav button {
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+.container .ele-cont {
+  display: flex;
+}
+
+.container .ele-cont .tex-cont {
+  padding-top: 60px;
+}
+
+
+
+.container .ele-cont img {
+  max-width: 40%;
+  position: relative;
+  top: 20px;
+}
+
+.container .ele-cont button {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  height: 30px;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+}
+
+.box-cont {
+  margin-bottom: 200px;
+}
+.box-cont .container {
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+}
+.box-cont .container .box-1 {
+  display: flex;
+  padding: 20px;
+  box-shadow: 0px 0px 7px 1px #e2dfdf;
+  margin-bottom: 25px;
+}
+
+
+.box-cont .container .box-1 .text-cont {
+  font-size: 14px;
+  padding: 20px 0px 0px 20px;
+}
+.box-cont .container .box-1 img {
+  width: 200px;
+}
+
+
+.box-cont .container .box-2 {
+  display: flex;
+  padding: 20px;
+  box-shadow: 0px 0px 7px 1px #e2dfdf;
+  margin-bottom: 25px;
+}
+.box-cont .container .box-2 .text-cont {
+  font-size: 14px;
+  padding: 10px 0px 0px 40px;
+}
+.box-cont .container .box-2 img {
+  width: 200px;
+}
+
+.box-cont .container .box-3 {
+  display: flex;
+  padding: 20px;
+  box-shadow: 0px 0px 7px 1px #e2dfdf;
+  margin-bottom: 25px;
+}
+.box-cont .container .box-3 .text-cont {
+  font-size: 14px;
+  padding: 20px 0px 0px 20px;
+}
+.box-cont .container .box-3 img {
+  width: 200px;
+}
+
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  height: 60vh;
+}
+footer .ready-box {
+  box-shadow: 0px -3px 7px 1px #e2dfdf;
+  width: 40%;
+  height: 170px;
+  background-color: white;
+  transform: translate(70%, -50px);
+  position: absolute;
+  bottom: -600px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+
+footer .ready-box h2 {
+  padding-top: 25px;
+  font-weight: 600;
+}
+footer .ready-box button {
+  width: 190px;
+  height: 40px;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 20px;
+}
+footer .left-section {
+  color: white;
+  max-width: 33.3333333333%;
+  padding: 30px 0px 0px 50px;
+  font-size: 10px;
+  position: absolute;
+  bottom: -800px;
+  left: 50px;
+}
+footer .left-section .location {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+  position: relative;
+}
+footer .left-section .location i {
+  padding-right: 15px;
+  position: relative;
+  top: 10px;
+}
+footer .left-section .mobile {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+  position: relative;
+}
+footer .left-section .mobile i {
+  padding-right: 15px;
+  position: relative;
+  top: 10px;
+}
+footer .left-section .gmail {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+  position: relative;
+}
+footer .left-section .gmail i {
+  padding-right: 15px;
+  position: relative;
+  top: 10px;
+}
+
+footer .contact-section {
+  position: absolute;
+  display: grid;
+  left: 50%;
+  bottom: -700px;
+  grid-template-columns: 50% 50%;
+  color: white;
+  gap: 20px 20px;
+  font-size: 13px;
+  transform: translateY(40px);
+}
+
+
+.contact-section a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.right-sectin {
+  display: flex;
+  position: absolute;
+  transform: translate(850px, 200px);
+  color: white;
+}
+.right-sectin i {
+  padding: 5px;
+}
+.end-text{
+  color: white;
+}
+
+@media  (max-width : 376px ) {
+  header{
+    height: 600px;
+  }
+  .container .ele-cont{
+    display: block;
+  }
+  .container .ele-cont .tex-cont {
+    max-width: 70%;
+    transform: translateX(25%);
+    padding-top: 30px;
+  }
+  .container .ele-cont img {
+    max-width: 60%;
+    position: relative;
+    top: 80px;
+    left: 80px;
+  }
+  .container .ele-cont button{
+    position: absolute;
+    top: 340px;
+    left: 130px;
+    height: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+  }
+  .box-cont .container .box-1 {
+    display: block;
+    padding: 20px;
+    box-shadow: 0px 0px 7px 1px #e2dfdf;
+    margin-bottom: 25px;
+  }
+  .box-cont .container .box-1 p{
+    line-height: 1.5;
+  }
+  .box-cont .container .box-2 {
+    display: block;
+    padding: 20px;
+    box-shadow: 0px 0px 7px 1px #e2dfdf;
+    margin-bottom: 25px;
+  }
+  .box-cont .container .box-2 p{
+    line-height: 1.5;
+  }
+  .box-cont .container .box-3 {
+    display: block;
+    padding: 20px;
+    box-shadow: 0px 0px 7px 1px #e2dfdf;
+    margin-bottom: 25px;
+  }
+  .box-cont .container .box-3 p{
+    line-height: 1.5;
+  }
+  footer{
+    height: 100vh;
+  }
+
+  footer .ready-box{
+    box-shadow: 0px -3px 7px 1px #e2dfdf;
+    width: 70%;
+    height: 170px;
+    background-color: white;
+    transform: translate(0px, 780px);
+    position: absolute;
+    left: 56px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  footer .right-sectin{
+    display: flex;
+    position: absolute;
+    transform: translate(120px, 150px);
+    color: white;
+  }
+  .end-text{
+    transform: translate(30px, 380px);
+    max-width: fit-content;
+  }
+
+  footer .left-section{
+
+    color: white;
+    max-width: min-content;
+    padding: 0px;
+    font-size: 10px;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(80px ,90px);
+  }
+  footer .contact-section {
+    position: static;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    color: white;
+    gap: 0;
+    font-size: 10px;
+    transform: translateY(100px);
+    justify-content: center;
+  }
+} 
+@media(min-width:768px){
+  header .container .ele-cont .tex-cont {
+    padding-top: 0px;
+  }
+  header .container .ele-cont button{
+
+    top: 200px;
+    
+    
+  }
+  footer .ready-box{
+    transform: translate(75%, -152px);
+  }
+  footer .left-section{
+    color: white;
+    max-width: 33.3333333333%;
+    padding: 30px 0px 0px 50px;
+    font-size: 10px;
+    position: absolute;
+    bottom: -760px;
+    left: -30px;
+  }
+  footer .contact-section{
+    position: absolute;
+    display: grid;
+    left: 45%;
+    bottom: -700px;
+    grid-template-columns: 50% 50%;
+    color: white;
+    gap: 20px 20px;
+    font-size: 13px;
+    transform: translateY(-30px);
+  }
+  footer .right-sectin{
+    display: flex;
+    position: absolute;
+    transform: translate(570px, 263px);
+    color: white;
+  }
+  .end-text{
+    transform: translate(450px, 446px);
+    width: fit-content;
+  }
+}
+
+@media(min-width:992px){
+  footer .right-sectin{
+    display: flex;
+    position: absolute;
+    transform: translate(775px, 223px);
+    color: white;
+  }
+}
+
+
+@media(min-width:1200px){
+  footer .right-sectin{
+    display: flex;
+    position: absolute;
+    transform: translate(950px, 90px);
+    color: white;
+}
+}
+
+/*# sourceMappingURL=main.css.map */
